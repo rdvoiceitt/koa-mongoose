@@ -1,6 +1,6 @@
 {
-  "name": "@south-paw/koa-mongoose",
-  "version": "1.1.0",
+  "name": "@rdvoiceitt/koa-mongoose",
+  "version": "1.1.1",
   "description": "Mongoose middleware for Koa 2",
   "keywords": [
     "koa",
@@ -10,13 +10,12 @@
     "mongodb",
     "mongoose"
   ],
-  "homepage": "https://github.com/South-Paw/koa-mongoose",
-  "bugs": "https://github.com/South-Paw/koa-mongoose/issues",
+  "homepage": "https://github.com/rdvoiceitt/koa-mongoose",
+  "bugs": "https://github.com/rdvoiceitt/koa-mongoose/issues",
   "license": "MIT",
   "author": {
-    "name": "Alex Gabites",
-    "email": "hello@southpaw.co.nz",
-    "url": "http://southpaw.co.nz/"
+    "name": "Roman Dubrov",
+    "email": "romandubrov@voiceitt.com"
   },
   "files": [
     "src"
@@ -24,7 +23,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/South-Paw/koa-mongoose.git"
+    "url": "https://github.com/rdvoiceitt/koa-mongoose.git"
   },
   "scripts": {
     "format": "prettier --write **/*.js",

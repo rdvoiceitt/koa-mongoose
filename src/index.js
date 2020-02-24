@@ -39,7 +39,7 @@ const middleware = (options = {}) => {
   const models = {};
 
   debug('Create middleware');
-  const connection = mongoose.createConnection();
+  const connection = mongoose.connection;
 
   // Load each schema by it's key
   Object.keys(schemas).forEach(schemaName => {
